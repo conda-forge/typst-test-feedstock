@@ -1,5 +1,5 @@
 {% set name = "typst-test" %}
-{% set version = "0.0.0.post103.9785121" %}
+{% set version = "0.0.0.post104.7babfc0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/tingerrr/{{ name }}/archive/{{ version.split(".")[-1] }}.tar.gz
-  sha256: d5592ff808d7da1a4097a34f1a0ed66a3dfa3e6e5f5395ad9975bd152fcf0dea
+  sha256: a62ecf42d02cd14f3be293f9a31cddce66c48e0ee2e216c1b552d14300facc7e
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
